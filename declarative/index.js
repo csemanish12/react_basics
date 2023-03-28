@@ -1,0 +1,1 @@
+ReactDOM.render(<h1 class="header">This is declarative way</h1>, document.getElementById("root"))
