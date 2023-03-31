@@ -3,24 +3,55 @@ import ReactDOM from 'react-dom/client';
 import logo from './logo.svg';
 import reportWebVitals from './reportWebVitals';
 
-function Page(){
+function Header() {
+  return (
+    <header>
+      <nav>
+        <img src={logo} width="40px" />
+      </nav>
+    </header>
+  )
+}
+
+function MainContent() {
+  return (
+    <>
+      <h1>Reasons I'm excited to learn react</h1>
+      <ol>
+        <li>It's a popular library, so I'll be
+          able to fit in with the cool kids!</li>
+        <li>I'm more likely to get a job as a developer
+          if I know React</li>
+      </ol>
+    </>
+  )
+}
+
+function Footer() {
+  return (
+    <>
+      <footer>
+        <small>© 2021 Ziroll development. All rights reserved.</small>
+      </footer>
+    </>
+  )
+}
+
+
+function Page() {
   return (
     <div>
-    <img src={logo} width="40px"/>
-    <h1>Fun facts about React</h1>
-    <ul>
-      <li>Was released in 2013.</li>
-      <li>Was originally created by Jordan Walke</li>
-      <li>Has well over 100K stars on Git</li>
-      <li>Is Maintained by Facebook</li>
-      <li>Powers thousands of enterprise apps, including mobile apps</li>
-    </ul>
-  </div>
+      <Header />
+      <MainContent />
+      <Footer />
+
+
+    </div>
   )
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-<Page />
+  <Page />
 );
 
 reportWebVitals();
