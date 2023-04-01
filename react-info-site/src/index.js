@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './index.css';
 import logo from './logo.svg';
 import reportWebVitals from './reportWebVitals';
 
 function Header() {
   return (
     <header>
-      <nav>
-        <img src={logo} width="40px" />
+      <nav className='nav'>
+        <img className='logo-img' src={logo} />
+        <ul className='nav-items'>
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
       </nav>
     </header>
   )
@@ -30,7 +36,7 @@ function MainContent() {
 function Footer() {
   return (
     <>
-      <footer>
+      <footer className='footer'>
         <small>© 2021 Ziroll development. All rights reserved.</small>
       </footer>
     </>

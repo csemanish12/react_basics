@@ -2,3 +2,31 @@ html, body {
   margin: 0;
   padding: 10px;
 }
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-items{
+  list-style: none;
+  display: flex;
+}
+.nav-items > li {
+  padding: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo-img{
+  width: 100px;
+}
+.footer{
+  background-color: grey;
+  padding: 20px;
+  margin-bottom: 0px;
+  position: absolute;
+  left:0;
+  bottom:0;
+  right:0;
+
+}
