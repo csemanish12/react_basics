@@ -9,3 +9,25 @@
 .nav--logo{
   max-width: 100px;
 }
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--gallery {
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero--header {
+  margin-bottom: 16px;
+  font-size: 44px;
+}
+
+.hero--text {
+  margin-top: 0;
+}
