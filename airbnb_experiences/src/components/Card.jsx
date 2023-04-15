@@ -1,7 +1,16 @@
 import starLogo from '../assets/star_icon.png'
 export default function Card(props) {
+    let badgeText 
+    if (props.openSpots === 0) {
+        badgeText = "SOLD OUT"
+    } else if (props.country === 'Online') {
+        badgeText = "ONLINE"
+
+    }
+    console.log(badgeText)
     return (
         <div className='card'>
+            {badgeText &&<div className='card--badge'>{badgeText}</div>}
             <img src={`src/assets/${props.image_name}`} className="card--image"/>
             <div className='card--footer'>
                 <img src={starLogo} className="card--star"/>
