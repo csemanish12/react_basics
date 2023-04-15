@@ -1,5 +1,4 @@
 import starLogo from '../assets/star_icon.png'
-import cardImage from '../assets/card_image.png'
 export default function Card(props) {
     return (
         <div className='card'>
