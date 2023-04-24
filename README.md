@@ -17,3 +17,13 @@ Directory: [Airbnb Experiences Clone](https://github.com/csemanish12/react_basic
 Website Url: [Click Here](https://harmonious-zabaione-d41294.netlify.app/)
 
 ![Webpage screnshot](https://github.com/csemanish12/react_basics/blob/main/assets/airbnb_experience_clone.png)
+
+# Project 3 - Meme Generator 
+
+- Used event listener, state, conditional rendering, forms and side effects
+
+Directory: [Meme Generator](https://github.com/csemanish12/react_basics/tree/main/meme-generator)
+
+Website Url: [Click Here](https://visionary-cassata-950d87.netlify.app/)
+
+![Webpage screnshot](https://github.com/csemanish12/react_basics/blob/main/assets/meme.png)
